@@ -1,0 +1,63 @@
+ * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html, body {
+  width: 100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+#fondo-imag {
+  position:fixed;
+  top:-50%;
+  left:-50%;
+  width:200%;
+  height:200%;
+}
+#fondo-imag img {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  min-width:50%;
+  min-height:50%;
+}
+#coordenadas{
+	width:1000px;
+	height: 190px;
+	font-size: 80px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top: -95px;
+	margin-left: -500px;
+	text-align: center;
+	font-weight: bold;
+}
+.btn {
+  background: #000000;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor:pointer;
+  font-weight: bold;
+}
+#botonera{
+	text-align: center;
+	margin-top: 50px;
+	position: relative;
+}
+.btn:hover {
+  background: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #000000;
+}
